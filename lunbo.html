@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="lunbo.css" />
+    <script src="remove.js"></script>
+    <script src="lunbo.js"></script>
+    <title>导航轮播</title>
+  </head>
+  <body>
+    <div id="playimages" class="play">
+      <!--总div-->
+      <ul class="big_pic">
+        <div class="prev"></div>
+        <div class="next"></div>
+
+        <div class="text">加载图片说明...</div>
+        <div class="length">计算图片数量...</div>
+
+        <a href="#" class="mark_left"></a>
+        <a href="#" class="mark_right"></a>
+
+        <!-- 加载图片说明和计算图片数量的透明度-->
+        <div class="bg"></div>
+
+        <li style="z-index: 1"><img src="img/02.jpg" /></li>
+        <li><img src="img/01.jpg" /></li>
+        <li><img src="img/03.jpg" /></li>
+        <li><img src="img/04.jpg" /></li>
+        <li><img src="img/05.jpg" /></li>
+        <li><img src="img/06.jpg" /></li>
+      </ul>
+
+      <div class="small_pic">
+        <ul style="width:390px;">
+          <li style="filter: 100;opacity: 1;">
+            <img src="img/02.jpg" />
+          </li>
+          <li><img src="img/01.jpg" /></li>
+          <li><img src="img/03.jpg" /></li>
+          <li><img src="img/04.jpg" /></li>
+          <li><img src="img/05.jpg" /></li>
+          <li><img src="img/06.jpg" /></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
